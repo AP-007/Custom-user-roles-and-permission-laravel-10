@@ -7,12 +7,12 @@ use Illuminate\Support\Facades\Blade;
 use Illuminate\Support\Facades\Gate;
 use Illuminate\Support\ServiceProvider;
 
-class PermissionsServiceProvider extends ServiceProvider
+class PermissionServiceProvider extends ServiceProvider
 {
     /**
      * Register services.
      */
-    public function register(): void
+    public function register()
     {
         //
     }

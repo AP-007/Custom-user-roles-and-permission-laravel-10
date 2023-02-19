@@ -62,18 +62,4 @@ trait HasPermissionsTrait
   {
     return $this->belongsToMany(Role::class, 'users_roles');
   }
-
-  // public function withdrawPermissionsTo(...$permissions)
-  // {
-
-  //   $permissions = $this->getAllPermissions($permissions);
-  //   $this->permissions()->detach($permissions);
-  //   return $this;
-  // }
-
-  // public function refreshPermissions(...$permissions)
-  // {
-  //   $this->permissions()->detach();
-  //   return $this->givePermissionsTo($permissions);
-  // }
 }
